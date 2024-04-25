@@ -1,0 +1,73 @@
+body{
+  display: flex; /* Use flexbox to make the body a flex container */
+  justify-content: center; /* Center the child elements horizontally */
+  align-items: center; /* Center the child elements vertically */
+  height: 100vh; /* Set the body height to 100% of the viewport height */
+  margin: 0; /* Remove any default margin */
+}
+
+.calculator{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width:230px;
+  height:300px;
+  border-radius:12px;
+  box-shadow: 0px 0px 10px rgba(156, 40, 40, 0.5);
+}
+
+.red-part{
+  border-radius: 12px 12px 0px 0px ;
+  width:230px ;
+  height:30%;
+  background-color: #FF0509;
+  margin-top: 0px;
+  position: relative;
+}
+.input-div {
+  
+  margin-top: 13px;
+  margin-left:100px;
+  
+}
+.input-style{
+  color:#757575;
+  font-weight: bold;
+  border-radius: 6px;
+  border-color:white;
+  font-size:30px;
+  width:120px;
+  background-color: white;
+}
+
+.white-part{
+  width:230px ;
+  height:70%;
+  background-color:#fbfafa;
+  margin-top:0px;border-radius: 0px 0px 12px 12px;
+}
+.buttons-style{
+  margin-top:10px;
+  margin-left:12px;
+  border-radius: 20px;
+  background-color: #ECEDEF;
+  color:#605A5A;
+  font-weight: bold;
+  font-size:20px;
+  cursor:pointer;
+  border:none;
+  height: 40px;
+  width: 40px;
+}
+.top-button-style{
+  height: 25px;
+  width: 25px;
+  font-size:10px;
+  margin-right: 0px;
+}
+.red-button {
+  background-color: red; 
+  color: white; 
+  
+}
